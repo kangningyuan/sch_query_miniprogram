@@ -22,11 +22,20 @@
         "condition": false,
         "minifyWXML": true,
         "swc": true,
-        "uglifyFileName": true
+        "uglifyFileName": true,
+        "compileWorklet": false,
+        "uploadWithSourceMap": true,
+        "packNpmManually": false,
+        "minifyWXSS": true,
+        "localPlugins": false,
+        "disableUseStrict": false,
+        "useCompilerPlugins": false,
+        "disableSWC": false
     },
     "condition": {},
     "editorSetting": {
         "tabIndent": "insertSpaces",
         "tabSize": 4
-    }
+    },
+    "simulatorPluginLibVersion": {}
 }
