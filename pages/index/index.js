@@ -94,6 +94,36 @@ Page({
 
       return results;
     }, []);
+  },
+
+  // 分享给朋友
+  onShareAppMessage() {
+    return {
+      title: '叔蘋奖学金得奖信息查询系统',
+      path: '/pages/index/index',
+      imageUrl: '/static/shuping_logo.webp',
+      success: function(res) {
+        console.log('分享成功', res);
+      },
+      fail: function(res) {
+        console.log('分享失败', res);
+      }
+    }
+  },
+
+  // 分享到朋友圈
+  onShareTimeline() {
+    return {
+      title: '叔蘋奖学金得奖信息查询系统',
+      path: '/pages/index/index',
+      imageUrl: '/static/shuping_logo.webp',
+      success: function(res) {
+        console.log('分享到朋友圈成功', res);
+      },
+      fail: function(res) {
+        console.log('分享到朋友圈失败', res);
+      }
+    }
   }
 
 })
