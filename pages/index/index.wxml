@@ -1,5 +1,6 @@
 <view class="container">
-  <image src="/static/shuping_logo.webp" class="logo"></image>
+  <image src="https://cdn.jsdelivr.net/gh/shuping1939/scholarship-query@main/assets/shuping_logo.webp" class="logo"></image>
+  <!-- <image src="/static/shuping_logo.webp" class="logo"></image> -->
   <text class="title">叔蘋得奖信息查询</text>
   <view class="search-box">
     <input id="searchInput" placeholder="输入学号/姓名/拼音" bindinput="handleInput" focus="{{true}}" />
